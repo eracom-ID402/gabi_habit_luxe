@@ -1,12 +1,16 @@
 .container {
+    padding-left: 6em;
+    background-color: blanchedalmond;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
         "hd  hd   hd"
         "sd  main main"
         "ft  ft   ft";
 }
-
+.rectangle {
+    color: blanchedalmond;
+}
 .header {
     grid-area: hd;
 }
@@ -22,19 +26,16 @@
 .sidebar {
     grid-area: sd;
 }
-
-h1 {
-    background-color: blueviolet;
-    grid-column-start: 2;
-    grid-column-end: 3;
+.texte1 {
+    background-color: burlywood;
+    display: contents;
 }
-
-.section1 {
-    font-size: 3em;
-    display: inline-block;
-    flex-direction: wrap;
+.name {
+    text-align: center;
+    font-size: 6em;
+    color: blanchedalmond;
+    background-color: black;
 }
-
 img {
     max-width: 60%;
 }
@@ -52,10 +53,11 @@ img {
 }
 
 .cube {
-    width: 50vmin;
-    height: 50vmin;
-    background: black;
-    margin: 25vmin auto;
+    
+    width: 40vmin;
+    height: 40vmin;
+    background: blanchedalmond;
+    margin: auto;
 }
 
 p {
