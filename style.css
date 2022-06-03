@@ -26,15 +26,14 @@
 .sidebar {
     grid-area: sd;
 }
-.texte1 {
-    background-color: burlywood;
-    display: contents;
+.texte1 {color: bisque;
 }
 .name {
     text-align: center;
     font-size: 6em;
     color: blanchedalmond;
     background-color: black;
+    border-style: double;
 }
 img {
     max-width: 60%;
@@ -52,14 +51,9 @@ img {
     flex-direction: wrap;
 }
 
-.cube {
-    
-    width: 40vmin;
-    height: 40vmin;
-    background: blanchedalmond;
-    margin: auto;
-}
-
 p {
     font-size: 20px;
+}
+body {
+    background-color: black;
 }
