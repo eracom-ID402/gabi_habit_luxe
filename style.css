@@ -1,11 +1,11 @@
 p {
     font-size: 15px;
-    color: grey;
+    color: white;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 100px;
 }
 body {
-    background-color: lightgray;
+    background-color: gray;
 }
 .picture4 {
     max-width: 50%;
@@ -14,7 +14,7 @@ body {
 }
 .title3 {
     font-size: x-large;
-    color: grey;
+    color: white;
     padding-left: 2em;
 }
 .picture7 {
